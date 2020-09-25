@@ -22,16 +22,12 @@ public class Runner extends Thread {
             try {
                 sleep(500);
             } catch (Exception ignored) {  }
-
-
             System.out.println(getName() + " бежит к " + runnerF.getName());
             try {
                 sleep(500);
             } catch (Exception ignored) {
             }
-
         }
-
         else {
             System.out.println(getName() + " берет палочку");
             System.out.println(getName() + " бежит к " + runnerS.getName());
